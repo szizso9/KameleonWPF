@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="View\green.png" />
+    <None Remove="View\red.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kameleon2\Kameleon2.csproj" />
+  </ItemGroup>
+
+</Project>
